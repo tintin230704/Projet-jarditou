@@ -1,67 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<header>
-<img src="images/jarditou_logo.jpg">
-<b><h1>Accueil</h1></b>
-</header>
-<section>
-<samp><h1>La qualité depuis 70 ans</samp></h1>
-</section>
-<article>
- <a href="Accueil.html"><li><b>Acceuil</li></b></a>
- <a href="Tableau.html"><li><b>Tableau</li></b></a>
- <a href="Formulaire.html"><li><b>Formulaire</li></b></a>
-<img src="images/promotion.jpg">
-</article>
-<body>
-    <fieldset>
-    <p>* Ces zones sont obligatoires </p>
-    <fieldset>
-        <legend> Vos Coordonnées</legend>
- <label for="nom">Votre nom*:</label><input type="text" name="nom" id="?"><br>
- <label for="Prénom">Votre prénom*:</label><input type="text" name="Prénom" id="?"><br>
- <table>
-   <tr>
-    <th><p>Sexe*:</p></th>
-    <th><input type="radio" name="Sexe" value="Féminin">Féminin</th>
-    <th><input type="radio" name="Sexe" value="Masculin" checked>Masculin</th>
-    </tr> 
- </table>
-        <label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date">
-        <br>
-        <label for="code">Code postal*:</label><input type="code postal" name="?" id="Code postal">
-        <br>
-        <label for="Adresse">Adresse:</label><input type="Adresse" name="?" id="Adresse">
-        <br>
-        <label for="Ville">Ville</label><input type="Ville" name="?" id="Ville">
-        <br>
-        <label for="Email">Email</label><input type="Email" name="?" id="Email">
- </fieldset>
- <fieldset>
-    <legend>Votre demande</legend>
-    <label for="Sujet">Sujet*:</label>
-    <select id="Sujet">
-        <option value="selected">-</option>
-        <option value="Mes commandes">Mes commandes</option>
-        <option value="Question sur un produit">Question sur un produit</option>
-        <option value="Réclamation">Réclamation</option>
-        <option value="Autres">Autres</option>
-    </select>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <header>
+    <img id="jarditou" src="images/jarditou_logo.jpg" />
+  </header>
+  <nav>
     <table>
-        <tr>
-    <th><p>Votre question*:</p></th>
-    <th><textarea name="commentaire" rows="3" cols="25"></textarea></th>
+      <tr>
+        <td><a href="index.html">Acceuil</a></td>
+        <td><a href="Tableau.html">Tableau</a></td>
+        <td><a href="Formulaire.html">Formulaire</a></td>
+      </tr>
     </table>
-    <input type="checkbox" name="?" value="*J'accepte le traitement informatique de ce formulaire" checked>*J'accepte le traitement informatique de ce formulaire
+  </nav>
+  <img id="promo" src="images/promotion.jpg" alt="promotion jarditou" />
+  <b><h1>Accueil</h1></b>
+
+  <body>
     <fieldset>
-        <button type="submit">Envoyer</button>
-        <button type="button" onclick="location.reload();">Réinitialiser</button>
-        
+      <div class="parent">
+        <div class="box" id="Colone3">[COLONE DROITE]</div>
+        <p>* Ces zones sont obligatoires</p>
+        <fieldset>
+          <legend>Vos Coordonnées</legend>
+          <label for="nom">Votre nom*:</label
+          ><input type="text" name="nom" id="?" /><br />
+          <label for="Prénom">Votre prénom*:</label
+          ><input type="text" name="Prénom" id="?" /><br />
+          <table>
+            <tr>
+              <th><p>Sexe*:</p></th>
+              <th><input type="radio" name="Sexe" value="Féminin" />Féminin</th>
+              <th>
+                <input
+                  type="radio"
+                  name="Sexe"
+                  value="Masculin"
+                  checked
+                />Masculin
+              </th>
+            </tr>
+          </table>
+          <label for="date">Date de naissance*:</label
+          ><input type="date" name="ddn" id="date" />
+          <br />
+          <label for="code">Code postal*:</label
+          ><input type="code postal" name="?" id="Code postal" />
+          <br />
+          <label for="Adresse">Adresse:</label
+          ><input type="Adresse" name="?" id="Adresse" />
+          <br />
+          <label for="Ville">Ville</label
+          ><input type="Ville" name="?" id="Ville" />
+          <br />
+          <label for="Email">Email</label
+          ><input type="Email" name="?" id="Email" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Votre demande</legend>
+          <label for="Sujet">Sujet*:</label>
+          <select id="Sujet">
+            <option value="selected">-</option>
+            <option value="Mes commandes">Mes commandes</option>
+            <option value="Question sur un produit">
+              Question sur un produit
+            </option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+          </select>
+          <table>
+            <tr>
+              <th><p>Votre question*:</p></th>
+              <th>
+                <textarea name="commentaire" rows="3" cols="25"></textarea>
+              </th>
+            </tr>
+          </table>
+
+          <input
+            type="checkbox"
+            name="?"
+            value="*J'accepte le traitement informatique de ce formulaire"
+            checked
+          />*J'accepte le traitement informatique de ce formulaire
+          <fi for="Sujet"
+            >Sujet*:
+            <select id="Sujet">
+              <option value="selected">-</option>
+              <option value="Mes commandes">Mes commandes</option>
+              <option value="Question sur un produit">
+                Question sur un produit
+              </option>
+              <option value="Réclamation">Réclamation</option>
+              <option value="Autres">Autres</option>
+            </select>
+            <table>
+              <tr>
+                <th><p>Votre question*:</p></th>
+                <th>
+                  <textarea name="commentaire" rows="3" cols="25"></textarea>
+                </th>
+              </tr>
+            </table>
+
+            <inpeldset>
+              <button type="submit">Envoyer</button>
+              <button type="button" onclick="location.reload();">
+                Réinitialiser
+              </button></inpeldset
+            >
+          </fi>
+        </fieldset>
+        <ul>
+          <a href="Mention legale.html">Mention legale</a>
+          <a href="Horaires.html">Horaires</a>
+          <a href="Plan du site.html">Plan du site</a>
+        </ul>
+      </div>
     </fieldset>
-    </fieldset>
-    </html>
+  </body>
+</html>
