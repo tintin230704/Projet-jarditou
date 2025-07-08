@@ -1,29 +1,58 @@
-nav
-{
-width: auto;
-height: auto;
-padding: 10px 40px 10px 30px;
-border: 5px solid black;
-margin: 5px 0 5px 0;
-background-color:black ;
-color:white ;
+nav                                   /* Modifie la balise de Navigation*/ {
+  width: auto; /* Mets la largeur en automatique*/
+  height: auto; /* Mets la hauteur en automatique*/
+  padding: 10px 40px 10px 30px; /* Mets l'interieur en 10px sur 40 px sur 10 px sur 40 px (Px= Pixel)*/
+  border: 5px solid black; /* Mets la Bordure a 5 px solide en noir */
+  margin: 5px 0 5px 0; /* Mets la marge de 5 px sur 0px de largeur*/
+  background-color: black; /* Mets la couloir de l'arrière plan en noir*/
+  color: white; /* Mets la couleur en Blanc*/
 }
-a
-{
-    color: white
+#promo                                /* CHange uniquement L'image de Promotion*/ {
+  width: 1900px; /* Change la largeur en 1900 pixels*/
+  height: auto; /* Cange la hauteur en automatique */
 }
 
-ul
-{
-   width:auto;
-height: auto;
-padding: 20px 30px 20px 30px;
-border: 5px solid black;
-margin: 5px 0 5px 0;
-background-color:black ;
-color:white ; 
+a                                     /* Modifie la balise de lien*/ {
+  color: white; /* change la couleur en Blanc*/
 }
-p
-{
-    
+
+ul                                   /* Modifie la balise des listes */ {
+  width: auto; /* Mets la largeur en automatique*/
+  height: auto; /* Mets la hauteur en automatique*/
+  padding: 20px 30px 20px 30px; /* Mets l'interieur en 20px sur 30 px sur 20px sur 30px*/
+  border: 5px solid black; /* Mets la bordure en 5px solide noir*/
+  margin: 5px 0 5px 0; /* Mets la marge en 5px sur 0px*/
+  background-color: black; /* Mets la couloir de l'arrière plan en noir*/
+  color: white; /* Mets la couleur en Blanc*/
+}
+#Colone1                             /* Change uniquement ID de la boite Colone1 */ {
+  display: inline-block; /* Change affichage l'affichage en bloc en ligne*/
+  background: rgb(216, 216, 219); /* Mets l'arrière plan en (216, 216, 219) */
+  width: 450px; /* Mets la largeur en 450 pixels*/
+  height: 570px; /* Mets la hauteur en 570 pixels*/
+  position: absolute; /* Mets la position en absolue */
+  top: 535px; /* Mets le Haut en 535 pixels*/
+  left: 1455px; /* Mets a Gauche en 1455 pixels*/
+}
+#Colone2                             /* Modifie uniquement ID de la  boite Colone2*/ {
+  display: inline-block; /* Change  affichage  l'affichage en bloc en ligne*/
+  background: rgb(216, 216, 219);
+  width: 450px;
+  height: 750px;
+  position: absolute;
+  top: 530px;
+  left: 1450px;
+}
+#Colone3 {
+  display: inline-block;
+  background: rgb(216, 216, 219);
+  width: 450px;
+  height: 595px;
+  position: absolute;
+  top: 535px;
+  left: 1450px;
+}
+#jarditou {
+  width: 300px;
+  height: auto;
 }
