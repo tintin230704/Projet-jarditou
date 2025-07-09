@@ -10,70 +10,65 @@
     <img id="jarditou" src="images/jarditou_logo.jpg" />
   </header>
   <nav>
-    <table>
-      <tr>
-        <td><a href="index.html">Acceuil</a></td>
-        <td><a href="Tableau.html">Tableau</a></td>
-        <td><a href="Formulaire.html">Formulaire</a></td>
-      </tr>
-    </table>
+    <a href="index.html">Acceuil</a>
+    <a href="Tableau.html">Tableau</a>
+    <a href="Formulaire.html">Formulaire</a>
   </nav>
   <img id="promo" src="images/promotion.jpg" alt="promotion jarditou" />
-  <b><h1>Accueil</h1></b>
+  <b><h1>Formulaire</h1></b>
 
-  <body id="Formulaire">
-    <fieldset>
-      <div class="parent">
-        <div class="box" id="Colone3">[COLONE DROITE]</div>
-        <p>* Ces zones sont obligatoires</p>
-        <fieldset>
-          <legend>Vos Coordonnées</legend>
-          <label for="nom">Votre nom*:</label
-          ><input type="text" name="nom" id="?" /><br />
-          <label for="Prénom">Votre prénom*:</label
-          ><input type="text" name="Prénom" id="?" /><br />
-          <table>
-            <tr>
-              <th><p>Sexe*:</p></th>
-              <th><input type="radio" name="Sexe" value="Féminin" />Féminin</th>
-              <th>
-                <input
-                  type="radio"
-                  name="Sexe"
-                  value="Masculin"
-                  checked
-                />Masculin
-              </th>
-            </tr>
-          </table>
-          <label for="date">Date de naissance*:</label
-          ><input type="date" name="ddn" id="date" />
-          <br />
-          <label for="code">Code postal*:</label
-          ><input type="code postal" name="?" id="Code postal" />
-          <br />
-          <label for="Adresse">Adresse:</label
-          ><input type="Adresse" name="?" id="Adresse" />
-          <br />
-          <label for="Ville">Ville</label
-          ><input type="Ville" name="?" id="Ville" />
-          <br />
-          <label for="Email">Email</label
-          ><input type="Email" name="?" id="Email" />
-        </fieldset>
+  <body>
+    <fieldset id="Formulaire1">
+      <p>* Ces zones sont obligatoires</p>
+      <fieldset>
+        <legend>Vos Coordonnées</legend>
+        <label for="nom">Votre nom*:</label
+        ><input type="text" name="nom" id="?" /><br />
+        <label for="Prénom">Votre prénom*:</label
+        ><input type="text" name="Prénom" id="?" /><br />
+        <table>
+          <tr>
+            <th><p>Sexe*:</p></th>
+            <th><input type="radio" name="Sexe" value="Féminin" />Féminin</th>
+            <th>
+              <input
+                type="radio"
+                name="Sexe"
+                value="Masculin"
+                checked
+              />Masculin
+            </th>
+          </tr>
+        </table>
+        <label for="date">Date de naissance*:</label
+        ><input type="date" name="ddn" id="date" />
+        <br />
+        <label for="code">Code postal*:</label
+        ><input type="code postal" name="?" id="Code postal" />
+        <br />
+        <label for="Adresse">Adresse:</label
+        ><input type="Adresse" name="?" id="Adresse" />
+        <br />
+        <label for="Ville">Ville</label
+        ><input type="Ville" name="?" id="Ville" />
+        <br />
+        <label for="Email">Email</label
+        ><input type="Email" name="?" id="Email" />
+      </fieldset>
 
-        <fieldset>
-          <legend>Votre demande</legend>
-          <label for="Sujet">Sujet*:</label>
-          <select id="Sujet">
-            <option value="selected">-</option>
-            <option value="Mes commandes">Mes commandes</option>
-            <option value="Question sur un produit">
-              Question sur un produit
-            </option>
-            <option value="Réclamation">Réclamation</option>
-            <option value="Autres">Autres</option>
-          </select>
+      <fieldset>
+        <legend>Votre demande</legend>
+        <label for="Sujet">Sujet*:</label>
+        <select id="Sujet">
+          <option value="selected">Veuillez séléctionner un sujet</option>
+          <option value="Mes commandes">Mes commandes</option>
+          <option value="Question sur un produit">
+            Question sur un produit
+          </option>
+          <option value="Réclamation">Réclamation</option>
+          <option value="Autres">Autres</option>
+        </select>
+        <table>
           <table>
             <tr>
               <th><p>Votre question*:</p></th>
@@ -82,47 +77,29 @@
               </th>
             </tr>
           </table>
-
-          <input
-            type="checkbox"
-            name="?"
-            value="*J'accepte le traitement informatique de ce formulaire"
-            checked
-          />*J'accepte le traitement informatique de ce formulaire
-          <fi for="Sujet"
-            >Sujet*:
-            <select id="Sujet">
-              <option value="selected">-</option>
-              <option value="Mes commandes">Mes commandes</option>
-              <option value="Question sur un produit">
-                Question sur un produit
-              </option>
-              <option value="Réclamation">Réclamation</option>
-              <option value="Autres">Autres</option>
-            </select>
-            <table>
-              <tr>
-                <th><p>Votre question*:</p></th>
-                <th>
-                  <textarea name="commentaire" rows="3" cols="25"></textarea>
-                </th>
-              </tr>
-            </table>
-
-            <inpeldset>
-              <button type="submit">Envoyer</button>
-              <button type="button" onclick="location.reload();">
-                Réinitialiser
-              </button></inpeldset
-            >
-          </fi>
-        </fieldset>
-        <ul>
-          <a href="Mention legale.html">Mention legale</a>
-          <a href="Horaires.html">Horaires</a>
-          <a href="Plan du site.html">Plan du site</a>
-        </ul>
-      </div>
+        </table>
+      </fieldset>
+      <input
+        type="checkbox"
+        name="?"
+        value="*J'accepte le traitement informatique de ce formulaire"
+        checked
+      />*J'accepte le traitement informatique de ce formulaire
+      <inpeldset>
+        <br />
+        <br />
+        <button type="submit" id="Envoyer">Envoyer</button>
+        <button type="button" id="Annuler" onclick="location.reload();">
+          Annuler
+        </button></inpeldset
+      >
     </fieldset>
   </body>
+  <footer>
+    <ul>
+      <a href="Mention legale.html">Mention legale</a>
+      <a href="Horaires.html">Horaires</a>
+      <a href="Plan du site.html">Plan du site</a>
+    </ul>
+  </footer>
 </html>
