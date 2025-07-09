@@ -7,6 +7,7 @@ main {
 }
 article {
   width: 70%;
+  font-size: small;
 }
 
 nav /* Modifie la balise de Navigation*/ {
@@ -24,12 +25,13 @@ img {
   height: auto; /* Mets la hauteur en automatique */
 }
 #promo                                /* CHange uniquement L'image de Promotion*/ {
-  width: auto;
+  width: 100%;
   height: auto; /* Cange la hauteur en automatique */
 }
 
-a                                     /* Modifie la balise de lien*/ {
+a /* Modifie la balise de lien*/ {
   color: white; /* change la couleur en Blanc*/
+  font-size: large;
 }
 
 ul                                   /* Modifie la balise des listes */ {
@@ -54,4 +56,32 @@ ul                                   /* Modifie la balise des listes */ {
 }
 body {
   font-size: 10px;
+}
+#Table1 {
+  margin: -5px;
+  width: 101%; /* Mets la largeur en 100% */
+  background-color: greenyellow;
+}
+td {
+  font-size: large; /* Mets la taille de la police en 1.5em */
+  text-align: center; /* Mets le texte au centre */
+}
+th {
+  font-size: large; /* Mets la taille de la police en 1.5em */
+}
+#Formulaire1 {
+  margin-left: -6px;
+  font-size: large; /* Mets la taille de la police en 1.5em */
+  background-color: aliceblue;
+}
+#Envoyer {
+  font-size: large;
+  background-color: khaki;
+}
+#Annuler {
+  background-color: khaki;
+  font-size: large;
+}
+label {
+  color: red;
 }
