@@ -1,13 +1,18 @@
 #COLONNE1 {
-  width: 30%;
-  background-color: rgb(206, 198, 198);
+  width: 30%; /* Mets la largeur en 30% */
+  background-color: rgb(
+    206,
+    198,
+    198
+  ); /* Change la couleur de l'arrière plan en rgb(206, 198, 198) */
 }
 main {
-  display: flex;
+  display: flex; /* Mets l'affichage en flex */
 }
 article {
-  width: 70%;
-  font-size: small;
+  width: 70%; /* Mets la largeur en 70% */
+  font-size: small; /* Mets la taille de la police en petite */
+  color: maroon;
 }
 
 nav /* Modifie la balise de Navigation*/ {
@@ -16,7 +21,7 @@ nav /* Modifie la balise de Navigation*/ {
   padding: 10px 40px 10px 30px; /* Mets l'interieur en 10px sur 40 px sur 10 px sur 40 px (Px= Pixel)*/
   border: 5px solid black; /* Mets la Bordure a 5 px solide en noir */
   margin: 5px 0 5px 0; /* Mets la marge de 5 px sur 0px de largeur*/
-  background-color: black; /* Mets la couloir de l'arrière plan en noir*/
+  background-color: royalblue; /* Mets la couloir de l'arrière plan en noir*/
   color: white; /* Mets la couleur en Blanc*/
 }
 
@@ -37,10 +42,10 @@ a /* Modifie la balise de lien*/ {
 ul                                   /* Modifie la balise des listes */ {
   width: auto; /* Mets la largeur en automatique*/
   height: auto; /* Mets la hauteur en automatique*/
-  padding: 20px 30px 20px 30px; /* Mets l'interieur en 20px sur 30 px sur 20px sur 30px*/
+  padding: 10px 40px 10px 30px; /* Mets l'interieur en 20px sur 30 px sur 20px sur 30px*/
   border: 5px solid black; /* Mets la bordure en 5px solide noir*/
   margin: 5px 0 5px 0; /* Mets la marge en 5px sur 0px*/
-  background-color: black; /* Mets la couloir de l'arrière plan en noir*/
+  background-color: royalblue; /* Mets la couloir de l'arrière plan en noir*/
   color: white; /* Mets la couleur en Blanc*/
 }
 
@@ -49,18 +54,14 @@ ul                                   /* Modifie la balise des listes */ {
   width: auto; /* Mets la largeur en 300 pixels*/
   height: auto; /* Mets la hauteur en automatique */
 }
-#Tableau1 {
-  /* Modifie uniquement ID de la boite Tableau1 */
-  background-color: aqua; /* Change la couleur de l'arrière plan en aqua */
-  width: auto; /* Mets la largeur en automatique */
-}
+
 body {
-  font-size: 10px;
+  font-size: 10px; /* Mets la taille de la police en 10px */
 }
 #Table1 {
-  margin: -5px;
+  margin: -5px; /* Mets la marge en -5px */
   width: 101%; /* Mets la largeur en 100% */
-  background-color: greenyellow;
+  background-color: greenyellow; /* Change la couleur de l'arrière plan en greenyellow */
 }
 td {
   font-size: large; /* Mets la taille de la police en 1.5em */
@@ -72,16 +73,34 @@ th {
 #Formulaire1 {
   margin-left: -6px;
   font-size: large; /* Mets la taille de la police en 1.5em */
-  background-color: aliceblue;
+  background-color: mediumaquamarine; /* Change la couleur de l'arrière plan en aliceblue */
 }
 #Envoyer {
-  font-size: large;
-  background-color: khaki;
+  font-size: large; /* Mets la taille de la police en large*/
+  background-color: khaki; /* Change la couleur de l'arrière plan en khaki */
 }
 #Annuler {
-  background-color: khaki;
-  font-size: large;
+  background-color: khaki; /* Change la couleur de l'arrière plan en khaki */
+  font-size: large; /* Mets la taille de la police en large*/
 }
 label {
+  color: purple; /* Change la couleur en rouge */
+}
+textarea {
+  background-color: white;
+}
+select {
+  background-color: mediumaquamarine;
+}
+h1 {
   color: red;
+}
+#Mention {
+  width: 100%; /* Mets la largeur en 300 pixels*/
+  height: 300px; /* Mets la hauteur en automatique */
+}
+#Mention1 {
+  font-size: large;
+  width: 100%;
+  color: black;
 }
